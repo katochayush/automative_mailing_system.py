@@ -18,7 +18,7 @@ try:
     server=sm.SMTP("smtp.gmail.com",587)
     server.starttls()
         
-    server.login("nainageorge04@gmail.com","Naina@04")
+    server.login("nainageorge04@gmail.com","pass)
     from_="nainageorge04@gmail.com"
     to_=list_of_emails
     
